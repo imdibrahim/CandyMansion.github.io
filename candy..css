@@ -1,0 +1,100 @@
+body{
+    background: #f5d9d5;
+    font-family: "Nunito",sans-serif;
+}
+#mainNavbar .navbar-brand{
+                  color:#EA1C2C;
+                  font-size: 1rem;
+                  font-weight: 100;
+}
+#mainNavbar{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.nav-link{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link:hover{
+    color:#EA1C2C;
+}
+@media (max-width:1200px){
+    text-center{
+        font-size: small;
+    }
+}
+.blurb h2{
+    color:#EA1C2C;
+   font-weight: 100;
+   font-size: 2rem;
+}
+.blurb p{
+    color: rgb(226, 114, 133);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+.x{
+    margin-top:100px
+}
+#last{
+    margin-top: 5px;
+    color: rgb(226, 114, 133);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+#he{
+    color:#EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+    
+}
+
+footer p{
+    margin-top: 20px;
+    color: rgb(0, 3, 192);
+    font-size: larger;
+}
+button{
+    color:rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 388px;
+    margin-top: 10px;
+    font-weight: bold;
+    
+     
+}
+
+@media (max-width:500px) {
+    button{
+        font-weight: bold;
+        margin-left:20px;
+    }
+}
+button:hover{
+  background:rgb(223, 215, 215);
+  transition-timing-function: ease-in-out;
+    transition:.25s ;
+    transform: translateY(-5px);
+box-shadow: 0 0.5em 0.5em -0.2em grey ;
+cursor: pointer;
+}
+.name{
+    color: #EA1C2C;
+    font-weight:100 ;
+}
+a{
+    margin-left: 30px;
+}
+@media (max-width:550px) {
+    a{
+        margin-left:2px
+    }
+}
+footer{
+    margin-bottom: 20px;
+}
